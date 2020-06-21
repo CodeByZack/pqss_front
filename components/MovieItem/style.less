@@ -1,0 +1,44 @@
+.movie-item {
+  position: relative;
+  font-size: 12px;
+  cursor: pointer;
+  height: 90px;
+  overflow: hidden;
+  padding: 0px;
+  transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  .movie-post{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+    border-radius: 4px;
+  }
+  .movie-info{
+    padding: 10px 5px 10px 70px;
+  }
+  .movie-title{
+    font-size: 17px;
+    height: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .movie-rating{
+    display: inline-block;
+    color: rgba(0, 34, 77, 0.7);
+  }
+  .movie-text{
+    margin-top: 3px;
+    line-height: 14px;
+    height: 28px;
+    color: rgba(0, 34, 77, 0.7);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}
