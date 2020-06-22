@@ -1,39 +1,39 @@
-@import "~less/variable.less";
+@import '~less/variable.less';
 
-.search-page{
-    .search-page-appbar{
-        position: sticky;
-        top: 0;
+.search-page {
+  .search-page-appbar {
+    position: sticky;
+    top: 0;
+  }
+  .search-content {
+    padding: 33px 0px 0px @logo_width_small;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    &-main {
+      padding-bottom: 50px;
+      margin-right: 20px;
+      width: 600px;
     }
-    .search-content{
-        padding: 33px 0px 0px @logo_width_small;
-        display: flex;
-        box-sizing: border-box;
-        width: 100%;
-        &-main{
-            padding-bottom: 50px;
-            margin-right: 20px;
-            width: 600px;
-        }
-        &-sidebar{
-            width: 430px;
-            min-width: 330px;
-            margin-right: 15px;
-        }
-    }
-}
-@media screen and (max-width: @screen_width_small) {
-    .search-page {
-        .search-page-appbar{
-            position: static;
-        }
-        .search-content{
-            padding: 10px 2%;
-            &-main{
-                padding-bottom: 50px;
-                margin-right: 0px;
-                width: 100%;
-            }
-        }
+    &-sidebar {
+      width: 430px;
+      min-width: 330px;
+      margin-right: 15px;
     }
   }
+}
+@media screen and (max-width: @screen_width_small) {
+  .search-page {
+    .search-page-appbar {
+      position: static;
+    }
+    .search-content {
+      padding: 10px 2%;
+      &-main {
+        padding-bottom: 50px;
+        margin-right: 0px;
+        width: 100%;
+      }
+    }
+  }
+}

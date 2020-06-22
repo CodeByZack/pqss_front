@@ -1,7 +1,7 @@
-import React from "react";
-import "./style.less";
+import React from 'react';
+import './style.less';
 const BoxLayout = (props) => {
-  const { title,style } = props;
+  const { title, style } = props;
   return (
     <div className="box-layout" style={style}>
       <div className="title">

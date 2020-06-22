@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.less";
+import React from 'react';
+import './style.less';
 
 const MovieItem = (props) => {
   return (

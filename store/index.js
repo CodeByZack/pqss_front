@@ -4,8 +4,8 @@ import { useWindowWidth } from '../utils/hooks';
 const useStore = () => {
   const windowWidth = useWindowWidth();
   return {
-    windowWidth
-  }
+    windowWidth,
+  };
 };
 
 const store = createContainer(useStore);

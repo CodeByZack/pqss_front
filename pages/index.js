@@ -1,14 +1,14 @@
-import FloatLinks from "../components/FloatLinks";
-import Search from "../components/Search";
-import BoxLayout from "../components/BoxLayout";
-import MovieItem from "../components/MovieItem";
-import Footer from "../components/Footer";
+import FloatLinks from '../components/FloatLinks';
+import Search from '../components/Search';
+import BoxLayout from '../components/BoxLayout';
+import MovieItem from '../components/MovieItem';
+import Footer from '../components/Footer';
 import Store from '@/store';
 
-import "./index.less";
+import './index.less';
 
 export default function Home() {
-  const {windowWidth} = Store.useContainer();
+  const { windowWidth } = Store.useContainer();
   console.log(windowWidth);
   return (
     <div className="container">
@@ -18,7 +18,7 @@ export default function Home() {
           <img src="/logo.svg" />
         </div>
         <Search />
-        <BoxLayout title={"测试"}>
+        <BoxLayout title={'测试'}>
           <div className="grid-3">
             <MovieItem />
             <MovieItem />
@@ -28,7 +28,7 @@ export default function Home() {
             <MovieItem />
           </div>
         </BoxLayout>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

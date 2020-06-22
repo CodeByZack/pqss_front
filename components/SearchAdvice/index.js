@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './style.less';
 const SearchAdvice = (props) => {
   return (

@@ -1,5 +1,5 @@
-@import "~less/variable.less";
-.footer{
+@import '~less/variable.less';
+.footer {
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -10,27 +10,27 @@
   box-shadow: rgba(30, 35, 42, 0.08) 0px 8px 33px 8px;
   padding-left: 24px;
   background: rgb(255, 255, 255);
-  .items{
+  .items {
     display: flex;
     list-style: none;
     width: 100%;
     margin: 0px;
     padding: 0px;
-    .item{
+    .item {
       font-size: 13px;
       color: rgb(133, 144, 166);
       margin-right: 24px;
     }
-    .link{
+    .link {
       cursor: pointer;
     }
   }
 }
-@media screen and (max-width: @screen_width_small){
-  .footer{
-    .items{
+@media screen and (max-width: @screen_width_small) {
+  .footer {
+    .items {
       justify-content: center;
-      .item:last-child{
+      .item:last-child {
         display: none;
       }
     }

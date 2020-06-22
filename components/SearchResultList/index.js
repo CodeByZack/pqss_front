@@ -1,7 +1,40 @@
-import React from "react";
-import "./style.less";
+import React from 'react';
+import './style.less';
 const SearchResultList = (props) => {
-  const { data = [1, 2, 3, 4, 5,1, 2, 3, 4, 5,1, 2, 3, 4, 5,1, 2, 3, 4, 5,1, 2, 3, 4, 5,1, 2, 3, 4, 5] } = props;
+  const {
+    data = [
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5,
+    ],
+  } = props;
   return (
     <div className="search-result-list">
       <ul>

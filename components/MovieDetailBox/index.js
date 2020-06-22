@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './style.less';
 
 const MovieDetailBox = (props) => {
@@ -59,13 +59,13 @@ const MovieDetailBox = (props) => {
             rel="noopener noreferrer"
             className=""
           >
-            雷牧 /{" "}
+            雷牧 /{' '}
           </a>
           <a target="_blank" rel="noopener noreferrer" className="">
-            张沐莀 /{" "}
+            张沐莀 /{' '}
           </a>
           <a target="_blank" rel="noopener noreferrer" className="">
-            史元庭 /{" "}
+            史元庭 /{' '}
           </a>
           <a
             href="https://movie.douban.com/celebrity/1329445/"

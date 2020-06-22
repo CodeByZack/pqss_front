@@ -1,8 +1,8 @@
-import "less/iconfont.less";
-import "less/styles.less";
-import "less/normalize.less";
-import Store from "@/store";
-import Head from "next/head";
+import 'less/iconfont.less';
+import 'less/styles.less';
+import 'less/normalize.less';
+import Store from '@/store';
+import Head from 'next/head';
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   return (
