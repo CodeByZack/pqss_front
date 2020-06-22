@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import FloatLinks from '../FloatLinks';
 import Search from '../Search';
+import Link from 'next/link';
 import './style.less';
 
 const TAB = {
@@ -17,7 +18,9 @@ const AppBar = (props)=>{
         <div className="app-bar">
             <div className="app-bar-top">
                 <div className="app-bar-logo">
-                    <img src="/logo.svg" />
+                    <Link href="/">
+                        <img src="/logo.svg" />
+                    </Link>
                 </div>
                 <div className="app-bar-search">
                     <Search/>

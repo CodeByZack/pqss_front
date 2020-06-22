@@ -7,6 +7,7 @@ import BoxLayout from "@/components/BoxLayout";
 import MovieItem from "@/components/MovieItem";
 import MovieDetailBox from "@/components/MovieDetailBox";
 import Store from "@/store";
+
 import "./search.less";
 
 const SearchPage = () => {
