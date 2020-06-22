@@ -5,10 +5,10 @@ const BoxLayout = (props) => {
   return (
     <div className="box-layout" style={style}>
       <div className="title">
-        <div class="label">
-          <span class="label-text">{title}</span>
-          <div class="label-bg label-bg-front"></div>
-          <div class="label-bg label-bg-back"></div>
+        <div className="label">
+          <span className="label-text">{title}</span>
+          <div className="label-bg label-bg-front"></div>
+          <div className="label-bg label-bg-back"></div>
         </div>
       </div>
       {props.children}

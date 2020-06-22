@@ -3,10 +3,13 @@ import Search from "../components/Search";
 import BoxLayout from "../components/BoxLayout";
 import MovieItem from "../components/MovieItem";
 import Footer from "../components/Footer";
+import Store from '@/store';
 
 import "./index.less";
 
 export default function Home() {
+  const {windowWidth} = Store.useContainer();
+  console.log(windowWidth);
   return (
     <div className="container">
       <FloatLinks />

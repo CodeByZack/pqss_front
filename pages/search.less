@@ -1,6 +1,10 @@
 @import "~less/variable.less";
 
 .search-page{
+    .search-page-appbar{
+        position: sticky;
+        top: 0;
+    }
     .search-content{
         padding: 33px 0px 0px @logo_width_small;
         display: flex;
@@ -18,3 +22,18 @@
         }
     }
 }
+@media screen and (max-width: @screen_width_small) {
+    .search-page {
+        .search-page-appbar{
+            position: static;
+        }
+        .search-content{
+            padding: 10px 2%;
+            &-main{
+                padding-bottom: 50px;
+                margin-right: 0px;
+                width: 100%;
+            }
+        }
+    }
+  }
