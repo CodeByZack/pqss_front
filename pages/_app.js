@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <Store.Provider>
       <Head>
-        <title>My page title</title>
+        <title>佩奇搜索</title>
         <meta name="viewport" content="width=device-width" />
       </Head>
       <Component {...pageProps} />
